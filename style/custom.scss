@@ -1,0 +1,23 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    height: 100%
+  }
+  .wrap {
+    margin-bottom: 230px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 230px;
+  
+  }
+  .footercontent {
+    padding: 30px;
+    background-color: $secondary;
+  }
